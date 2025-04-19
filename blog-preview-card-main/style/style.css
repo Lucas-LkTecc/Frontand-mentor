@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Figtree", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: hsl(47, 88%, 63%);
+    padding: 20px;
+}
+
+#main {
+    width: 265px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 8px 8px 0px black;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.ilustracao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ilustracao img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.badge {
+    background-color: hsl(47, 88%, 63%);
+    font-weight: bold;
+    font-size: 12px;
+    padding: 4px 10px;
+    border-radius: 4px;
+    width: fit-content;
+}
+
+.publicacao {
+    font-size: 12px;
+    color: 0, 0, hsl(0, 0, 50%);
+}
+
+h1 {
+    font-size: 18px;
+    font-weight: 800;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.descricao {
+    font-size: 14px;
+    color: 0, 0, hsl(0, 0, 50%);
+}
+
+.autor {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 800;
+    font-size: 12px;
+    margin-top: auto;
+}
+
+.autor img {
+    width: 30px;
+    border-radius: 50%;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.attribution a {
+    color: 228, 45%, 44%;
+}
